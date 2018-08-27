@@ -1,18 +1,6 @@
 let assert = require('assert');
 let textManipulator = require('../app.js')
 
-// describe('typeOf', function(){
-//   it('Should return number when given integer', function(){
-//     assert.equal(number, checkDataType(3));
-//   });
-//   it('Should return string when given text', function(){
-//     assert.equal(string, checkDataType('Hello World'));
-//   });
-//   it('Should return undefined if no input', function(){
-//     assert.equal(undefined, checkDataType(''));
-//   });
-// });
-
 describe('typeOf', function(){
   it('Should return number when given a number as argument', function(){
     assert.equal('number', textManipulator.checkDataType(42));
